@@ -7,8 +7,8 @@ Transform sync function to async function with callback.
 ```
 import {transformToCallbacked} from "transform-to-callbacked";
 
-const callbackeSum = transformToCallbacked((a, b)=>a+b);
-callbackeSum(3,4,(err, res)=>console.log(res)); // 7
+const callbackedSum = transformToCallbacked((a, b)=>a+b);
+callbackedSum(3,4,(err, res)=>console.log(res)); // 7
 ```
 
 # Run & Test
